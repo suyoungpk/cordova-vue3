@@ -12,6 +12,9 @@ pc web 일 경우
 npm run serve
 
 * app일 경우 
+vue add cordova
+npm run cordova-prepare
+
 > android 
 $ npm run cordova-serve-android  
 $ npm run cordova-build-android # Build Android 
