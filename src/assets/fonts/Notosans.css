@@ -1,0 +1,32 @@
+@font-face {
+	font-family: 'Notosans';
+	font-weight: normal;
+	src: url(./noto-sans-sc-v11-latin_chinese-simplified-regular.eot);
+	src: url(./noto-sans-sc-v11-latin_chinese-simplified-regular.eot?#iefix) format('embedded-opentype'),
+		 url(./noto-sans-sc-v11-latin_chinese-simplified-regular.woff) format('woff'),
+		 url(./noto-sans-sc-v11-latin_chinese-simplified-regular.woff2) format('woff2');
+   }
+   @font-face {
+	font-family: 'Notosans';
+	font-weight: 300;
+	src: url(./noto-sans-sc-v11-latin_chinese-simplified-300.eot);
+	src: url(./noto-sans-sc-v11-latin_chinese-simplified-300.eot?#iefix) format('embedded-opentype'),
+		 url(./noto-sans-sc-v11-latin_chinese-simplified-300.woff) format('woff'),
+		 url(./noto-sans-sc-v11-latin_chinese-simplified-300.woff2) format('woff2');
+   }
+   @font-face {
+	font-family: 'Notosans';
+	font-weight: 500;
+	src: url(./noto-sans-sc-v11-latin_chinese-simplified-500.eot);
+	src: url(./noto-sans-sc-v11-latin_chinese-simplified-500.eot?#iefix) format('embedded-opentype'),
+		 url(./noto-sans-sc-v11-latin_chinese-simplified-500.woff) format('woff'),
+		 url(./noto-sans-sc-v11-latin_chinese-simplified-500.woff2) format('woff2');
+   }
+   @font-face {
+	font-family: 'Notosans';
+	font-weight: 700;
+	src: url(./noto-sans-sc-v11-latin_chinese-simplified-700.eot);
+	src: url(./noto-sans-sc-v11-latin_chinese-simplified-700.eot?#iefix) format('embedded-opentype'),
+		 url(./noto-sans-sc-v11-latin_chinese-simplified-700.woff) format('woff'),
+		 url(./noto-sans-sc-v11-latin_chinese-simplified-700.woff2) format('woff2');
+   }

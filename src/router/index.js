@@ -2,7 +2,7 @@
 import { createWebHistory, createRouter } from "vue-router";
 
 import common from './common'
-import login from './login'
+import signup from './signup'
 
 const router = createRouter({
   scrollBehavior() {
@@ -11,7 +11,7 @@ const router = createRouter({
   history: createWebHistory(),
   routes:common,
 });
-router.addRoute(login)
+router.addRoute(signup)
 //필요할 경우
 let isAuthenticated = true// 권한여부 check
 router.beforeEach(() => isAuthenticated);

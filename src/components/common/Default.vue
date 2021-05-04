@@ -1,6 +1,5 @@
 <template>
   <div class="wrapper">
-  default component
     <header-layout></header-layout>
     <router-view></router-view>
     <footer-layout></footer-layout>

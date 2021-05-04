@@ -1,7 +1,9 @@
 <template>
   <section class="login">
-     login {{id}}
-     <button type="button" @click="goBack()">뒤로가기</button>
+     login
+        <p> {{$t('greeting')}}</p>
+     <button type="button" @click="this.$router.push('/main')">메인으로가기</button>
+     <button type="button" @click="goSign()">가입하기</button>
   </section>
 </template>
 
@@ -10,10 +12,8 @@ export default {
   name: 'Login',
   props:["id"],
   methods:{
-     goBack () {
-      window.history.length > 1
-        ? this.$router.go(-1)
-        : this.$router.push('/')
+     goSign () {
+      this.$router.push('/signup');
     }
   }
 }
