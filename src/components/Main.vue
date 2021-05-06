@@ -1,8 +1,16 @@
 <template>
   <main>
        <p> main</p>
-    {{this.screenMode}}
-    <button type="button" @click="goBack()">뒤로가기</button>
+    <div>
+      현재 스크린 모드 : {{this.screenMode}}
+    </div>
+    <div>
+      현재 기기 OS : {{bodyclass}}
+    </div>
+    <p>
+    {{this.uAgent}}
+    </p>
+    <button type="button" @click="goBack()" class="btn">뒤로가기</button>
   </main>
 </template>
 
@@ -13,9 +21,11 @@ export default {
    components: {  },
   data () {
     return {
+      bodyclass:''
     }
   },
   created () {
+    this.bodyclass = document.body.classList;
   },
   mounted(){
   },
