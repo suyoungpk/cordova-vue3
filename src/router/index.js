@@ -1,5 +1,5 @@
 // import Vue from 'vue'
-import { createWebHistory, createRouter } from "vue-router";
+import { createWebHistory, createRouter, createWebHashHistory } from "vue-router";
 
 import common from './common'
 import signup from './signup'
@@ -8,7 +8,7 @@ const router = createRouter({
   scrollBehavior() {
     return ({x: 0, y: 0})
   },
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes:common,
 });
 router.addRoute(signup)
